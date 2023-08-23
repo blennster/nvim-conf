@@ -24,6 +24,7 @@ return {
         bashls = {},
         hls = {},
         clangd = {},
+        sqlls = {},
       },
     },
   },
@@ -164,6 +165,7 @@ return {
         "vim",
         "yaml",
       })
+      opts.auto_install = true
     end,
   },
 
